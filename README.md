@@ -145,8 +145,8 @@ ai-smart-classroom-timetable-system/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/tanmayjhanjhari/AI-Smart-Timetable-Schedular-System.git
-cd AI-Smart-Timetable-Schedular-System
+git clone https://github.com/tanmayjhanjhari/AI-Smart-Timetable-Scheduler-System.git
+cd AI-Smart-Timetable-Scheduler-System
 ```
 
 ### 2️⃣ Create Virtual Environment
