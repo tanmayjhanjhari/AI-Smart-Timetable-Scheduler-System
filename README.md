@@ -1,7 +1,6 @@
 ---
 # 🚀 **AI Smart Timetable Scheduler System**
 
-### ⚡ Designed & Developed by **Tanmay Jhanjhari**
 
 ![AI](https://img.shields.io/badge/AI-Optimization-blue)
 ![Python](https://img.shields.io/badge/Backend-Python-yellow)
