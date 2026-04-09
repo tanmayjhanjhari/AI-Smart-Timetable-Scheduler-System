@@ -1,186 +1,225 @@
-# AI-Smart-Timetable-Schedular-System
-AI-powered scheduling for smarter campuses
+---
+# 🚀 **AI Smart Timetable Scheduler System**
 
-An AI-driven smart classroom and academic timetable scheduling system designed for colleges and universities.
-The system automatically generates optimized, clash-free timetables by considering faculty availability, room constraints, program-wise lunch timings, workload balance, and institutional rules.
+### ⚡ Designed & Developed by **Tanmay Jhanjhari**
 
-This project is suitable for real-world academic deployment and is being migrated toward a MERN-based production system.
+![AI](https://img.shields.io/badge/AI-Optimization-blue)
+![Python](https://img.shields.io/badge/Backend-Python-yellow)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+![Firebase](https://img.shields.io/badge/Database-Firebase-orange)
+![Status](https://img.shields.io/badge/Project-Active-success)
+![Future](https://img.shields.io/badge/Upgrade-MERN-purple)
 
-APP LINK: https://ai-smart-timetable-schedular-system-bfzv7gdxsskzsnhmupzkwv.streamlit.app/
+---
 
-🚀 Key Features
+## 🧠 **Project Overview**
 
-✅ AI-Based Timetable Generation
+An AI-powered smart classroom and academic timetable scheduling system built to eliminate manual scheduling chaos.
 
-Uses Genetic Algorithms for optimization
+This system generates **optimized, clash-free timetables** by intelligently handling:
 
-Ensures zero faculty clashes and zero room clashes
+* Faculty availability
+* Room constraints
+* Program-wise lunch timings
+* Workload balancing
+* Institutional rules
 
-Respects school-wise and program-wise lunch timings
+📌 Built for **real-world academic deployment**, not just demonstration.
 
-🧠 Advanced Optimization Techniques
+🔗 **Live App:**
+[https://ai-smart-timetable-schedular-system-bfzv7gdxsskzsnhmupzkwv.streamlit.app/](https://ai-smart-timetable-schedular-system-bfzv7gdxsskzsnhmupzkwv.streamlit.app/)
 
-Genetic Algorithm (primary scheduler)
+---
 
-Graph Coloring (conflict-free slot allocation)
+## 🚀 **Core Features**
 
-Hungarian Algorithm (optimal faculty-course assignment)
+### 🧩 AI-Based Timetable Generation
 
-🏫 Multi-School & Multi-Program Support
+* Uses **Genetic Algorithm** for intelligent scheduling
+* Ensures:
 
-STME, SOC, SOL
+  * ❌ No faculty clashes
+  * ❌ No room clashes
+* Maintains structured academic flow
 
-BTECH, MBATECH, BBA, BCOM, LAW
+---
 
-Semester-based scheduling support
+### 🧠 Advanced Optimization Engine
 
-🏢 Smart Room Allocation
+* 🧬 Genetic Algorithm → Primary scheduler
+* 🎨 Graph Coloring → Conflict-free slot allocation
+* 📊 Hungarian Algorithm → Optimal faculty assignment
 
-Automatic classroom/lab assignment
+---
 
-Dataset-driven room mapping
+### 🏫 Multi-Institution Support
 
-Conflict-free room usage
+Supports multiple schools and programs:
 
-⚠️ Clash Detection & Resolution
+* **Schools:** STME, SOC, SOL
+* **Programs:** BTECH, MBATECH, BBA, BCOM, LAW
+* 📅 Semester-wise scheduling supported
 
-Faculty clashes
+---
 
-Room booking clashes
+### 🏢 Smart Resource Allocation
 
-Visual and data-level conflict reports
+* Automatic classroom & lab assignment
+* Dataset-driven allocation
+* ⚡ Zero resource overlap
 
-✏️ Editable Timetable
+---
 
-Manual edits with undo support
+### ⚠️ Clash Detection System
 
-Validation before saving
+* Detects:
 
-Version-safe editing
+  * Faculty conflicts
+  * Room conflicts
+* Provides **visual + logical reports**
 
-📊 Export & Reporting
+---
 
-PDF timetable export
+### ✏️ Editable Timetable
 
-Excel export for administration
+* Manual edits supported
+* Undo functionality
+* Validation before saving
 
-Audit logs for changes
+---
 
-🛠️ Tech Stack
-Current Implementation
+### 📊 Export & Reporting
 
-Frontend / UI: Streamlit
+* 📄 PDF export
+* 📊 Excel export
+* 🧾 Audit logs for tracking changes
 
-Backend Logic: Python
+---
 
-Database: Firebase Firestore
+## 🛠️ **Tech Stack**
 
-AI & Optimization:
+### 🔹 Current Implementation
 
-Genetic Algorithms
+* **Frontend:** Streamlit
+* **Backend:** Python
+* **Database:** Firebase Firestore
 
-Graph Coloring
+### 🔹 AI & Algorithms
 
-Hungarian Assignment Algorithm
+* Genetic Algorithm
+* Graph Coloring
+* Hungarian Assignment Algorithm
 
-Planned Migration
+---
 
-Frontend: React
+### 🚀 Planned Upgrade (Production Level)
 
-Backend: Node.js + Express
+* ⚛️ Frontend: React
+* 🌐 Backend: Node.js + Express
+* 🗄️ Database: MongoDB
+* 🧱 Architecture: MERN Stack
 
-Database: MongoDB
+---
 
-Architecture: MERN Stack (Enterprise-ready)
+## 🏗️ **Project Structure**
 
-📁 Project Structure
+```
 ai-smart-classroom-timetable-system/
-
+│
 ├── Main App/
-
-│   ├── app.py                    # Main Streamlit application
-
-│   ├── genetic_algorithm.py      # AI scheduling engine
-
-├── Datasets/                     # Sample / demo datasets (optional)
-
-├── requirements.txt              # Python dependencies
-
-├── service_account.example.json  # Firebase config template
-
+│   ├── app.py                  # Main Streamlit application
+│   ├── genetic_algorithm.py    # Core scheduling engine
+│
+├── Datasets/                   # Sample datasets
+│
+├── requirements.txt           # Dependencies
+├── service_account.example.json
 ├── .gitignore
-
 └── README.md
+```
 
+---
 
-⚠️ Note:
+## ⚙️ **Installation & Setup**
 
-service_account.json is intentionally excluded for security reasons.
+### 1️⃣ Clone Repository
 
-Virtual environments (venv/) are not included.
+```bash
+git clone https://github.com/tanmayjhanjhari/AI-Smart-Timetable-Schedular-System.git
+cd AI-Smart-Timetable-Schedular-System
+```
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/mukund06s/ai-smart-classroom-timetable-system.git
-cd ai-smart-classroom-timetable-system
+### 2️⃣ Create Virtual Environment
 
-2️⃣ Create a virtual environment
+```bash
 python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+source venv/bin/activate
+# Windows: venv\Scripts\activate
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Firebase Configuration
+---
 
-Create a Firebase project
+## ▶️ **Run the Application**
 
-Download service_account.json
-
-Place it in the root directory (DO NOT push to GitHub)
-
-Refer to service_account.example.json for format
-
-▶️ Running the Application
+```bash
 streamlit run Main\ App/app.py
+```
+
+App will open automatically in browser.
+
+---
+
+## 🔐 **Security Notes**
+
+* Firebase credentials are NOT stored in repo
+* Sensitive institutional data should never be uploaded
+* Repository contains **code only, not production data**
+
+---
+
+## 🏛️ **Real-World Use Case**
+
+This system is built for:
+
+* Colleges & Universities
+* Academic Scheduling Departments
+* Smart Campus Systems
+
+💡 Replaces manual scheduling → saves **weeks of work + reduces errors**
+
+---
+
+## 📈 **Future Roadmap**
+
+* MERN stack migration
+* Role-based access (Admin / Faculty / Student)
+* AI-based faculty preference learning
+* Cloud deployment with CI/CD
+* Mobile-friendly interface
+
+---
+
+## ⚠️ **Important Note**
+
+This project is designed for:
+
+* Academic use
+* System design demonstration
+* Real-world scalability exploration
+
+Not yet production-deployed.
+
+---
+
+## 👨‍💻 **Author**
+
+**Tanmay Jhanjhari**
 
 
-The application will open in your browser.
-
-🔐 Security Notes
-
-Firebase credentials are not committed to the repository
-
-Sensitive data (faculty names, internal schedules) should not be pushed
-
-This repository contains code only, not production data
-
-🏛️ Institutional Use Case
-
-This system is designed for:
-
-Colleges & Universities
-
-Academic Timetable Offices
-
-Smart Campus Initiatives
-
-It replaces manual timetable preparation, reduces human error, and saves weeks of administrative effort.
-
-📈 Future Enhancements
-
-MERN stack migration
-
-Role-based access control (Admin / Faculty / Student)
-
-Automated faculty preference learning
-
-Cloud deployment with CI/CD
-
-Mobile-friendly timetable access
-
-👤 Author
-
-Mukund Sharma
-System Designer & Developer
-AI Smart Classroom & Timetable Scheduling Platform
+---
